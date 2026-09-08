@@ -70,4 +70,17 @@ import { obtenerCantidad,obtenerPrecio,calcularPrecioNeto, calcularImpuesto, cal
         expect(resultado.total).toEqual(9625);
     });
     });
+   it("deberia retornar el desglose completo con descuento e impuesto aplicados", () => {
+    expect(calcularTotalizador(100, 10, "TX")).toEqual({
+      cantidad: 100,
+      precio: 10,
+      precioNeto: 1000,
+      descuento: 30,
+      porcentajeDescuento: 3,
+      impuesto: 62.5,
+      porcentajeImpuesto: 6.25,
+      estado: "TX",
+      total: 1032.5,
+    });
+    });
 });

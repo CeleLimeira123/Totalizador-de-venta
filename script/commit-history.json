@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5871026eaaf90c4b3e6c4669b0b0546a9d2a5aaa",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T13:12:57.000Z",
       "message": "feat: calcular total e impuesto sobre precio neto en funcion integradora",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/5871026eaaf90c4b3e6c4669b0b0546a9d2a5aaa"
     },
     "stats": {
       "total": 24,
@@ -338,6 +338,25 @@
     },
     "coverage": 95,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-08T13:41:44.000Z",
+      "message": "fix: corregir duplicacion de funcion calcularTotalizador y formatear archivo de pruebas",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 33,
+      "additions": 33,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 91.07,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }

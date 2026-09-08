@@ -478,9 +478,71 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5871026eaaf90c4b3e6c4669b0b0546a9d2a5aaa",
     "commitName": "feat: calcular total e impuesto sobre precio neto en funcion integradora",
     "commitTimestamp": 1788873181407,
     "testId": 17
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788873254733,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1788873405443,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1788873522578,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1788873601694,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1788873670888,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1788873704618,
+    "success": false,
+    "testId": 18
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788873877110,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: corregir duplicacion de funcion calcularTotalizador y formatear archivo de pruebas",
+    "commitTimestamp": 1788874907782,
+    "testId": 18
   }
 ]

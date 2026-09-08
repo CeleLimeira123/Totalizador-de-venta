@@ -46,16 +46,36 @@ export function obtenerPrecio(precio) {
   return precio;
 }
 
+
 export function calcularTotalizador(cantidad, precio, estado = "") {
+  const error = validarEntradas(cantidad, precio, estado);
+  if (error) return error;
+
   const precioNeto = calcularPrecioNeto(cantidad, precio);
   const descuento = calcularDescuento(precioNeto);
   const impuesto = calcularImpuesto(precioNeto, estado);
+
+  const tasasImpuesto = { CA: 8.25, AL: 4.0, NV: 8.0, UT: 6.65, TX: 6.25 };
+  const porcentajeImpuesto = tasasImpuesto[estado] || 0;
+
+  let porcentajeDescuento = 0;
+  if (precioNeto >= 30000) porcentajeDescuento = 15;
+  else if (precioNeto >= 10000) porcentajeDescuento = 10;
+  else if (precioNeto >= 7000) porcentajeDescuento = 7;
+  else if (precioNeto >= 3000) porcentajeDescuento = 5;
+  else if (precioNeto >= 1000) porcentajeDescuento = 3;
+
   const total = Number((precioNeto - descuento + impuesto).toFixed(2));
 
   return {
+    cantidad,
+    precio,
     precioNeto,
     descuento,
+    porcentajeDescuento,
     impuesto,
+    porcentajeImpuesto,
+    estado,
     total,
   };
 }
