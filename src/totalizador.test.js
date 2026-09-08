@@ -13,4 +13,7 @@ describe("Totalizador de Ventas - Impuestos", () => {
   it("deberia calcular el impuesto de 4.00% para AL", () => {
   expect(calcularImpuesto(60, "AL")).toEqual(2.40);
 });
+it("deberia calcular el impuesto de 8.00% para NV", () => {
+  expect(calcularImpuesto(60, "NV")).toEqual(4.80);
+});
 });

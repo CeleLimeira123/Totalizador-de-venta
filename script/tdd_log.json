@@ -98,9 +98,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a27031bdbf26af6e0f6d550f3af6cd140b2b22ff",
     "commitName": "feat: agregar calculo de impuesto de 4.00% para AL",
     "commitTimestamp": 1788866633163,
     "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788866665962,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788866692966,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar calculo de impuesto de 8.00% para NV",
+    "commitTimestamp": 1788866710133,
+    "testId": 4
   }
 ]

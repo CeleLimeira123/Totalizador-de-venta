@@ -9,5 +9,8 @@ export function calcularImpuesto(precioNeto, estado) {
   if (estado === "AL") {
     return Number((precioNeto * 0.0400).toFixed(2));
   }
+  if (estado === "NV") {
+    return Number((precioNeto * 0.0800).toFixed(2));
+  }
   return 0;
 }
