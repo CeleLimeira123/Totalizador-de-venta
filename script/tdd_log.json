@@ -630,9 +630,31 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "29410ed0ed5590f532e6c6da48756b3dac20274c",
     "commitName": "feat: mantener la categoria seleccionada si el usuario especifica una",
     "commitTimestamp": 1788907605220,
     "testId": 25
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1788907776102,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1788907798398,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar 2% de descuento adicional para la categoria Alimentos",
+    "commitTimestamp": 1788907810015,
+    "testId": 26
   }
 ]

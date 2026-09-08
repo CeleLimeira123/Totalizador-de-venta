@@ -475,12 +475,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "29410ed0ed5590f532e6c6da48756b3dac20274c",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T22:46:41.000Z",
       "message": "feat: mantener la categoria seleccionada si el usuario especifica una",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/29410ed0ed5590f532e6c6da48756b3dac20274c"
     },
     "stats": {
       "total": 4,
@@ -490,6 +490,25 @@
     },
     "coverage": 91.38,
     "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-08T22:50:06.000Z",
+      "message": "feat: aplicar 2% de descuento adicional para la categoria Alimentos",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 16,
+      "deletions": 3,
+      "date": "2026-09-08"
+    },
+    "coverage": 90.16,
+    "test_count": 24,
     "failed_tests": 0,
     "conclusion": "success"
   }

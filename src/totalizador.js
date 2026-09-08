@@ -86,3 +86,9 @@ export function obtenerEstadoPorDefecto(estado) {
 export function obtenerCategoriaPorDefecto(categoria) {
   return categoria && categoria.trim() !== "" ? categoria : "Varios";
 }
+export function obtenerDescuentoCategoria(categoria = "Varios") {
+  if (categoria === "Alimentos") {
+    return 0.02;
+  }
+  return 0;
+}
