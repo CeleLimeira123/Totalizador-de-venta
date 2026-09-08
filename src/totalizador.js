@@ -78,4 +78,8 @@ export function calcularTotalizador(cantidad, precio, estado = "") {
     estado,
     total,
   };
+  
+}
+export function obtenerEstadoPorDefecto(estado) {
+  return estado && estado.trim() !== "" ? estado : "CA";
 }

@@ -564,9 +564,31 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1b024e950c2f0f7e62387453785c933c2fb32171",
     "commitName": "fix: ajustar propiedades de res en presenter para coincidir con totalizador",
     "commitTimestamp": 1788896758021,
     "testId": 22
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 2,
+    "numTotalTests": 21,
+    "timestamp": 1788906943786,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1788906983397,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: asignar estado por defecto si no se selecciona ninguno",
+    "commitTimestamp": 1788906998977,
+    "testId": 23
   }
 ]

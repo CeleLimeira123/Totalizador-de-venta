@@ -1,4 +1,12 @@
-import { obtenerCantidad,obtenerPrecio,calcularPrecioNeto, calcularImpuesto, calcularDescuento, validarEntradas,calcularTotalizador } from "./totalizador";
+import {
+     obtenerCantidad,
+     obtenerPrecio,
+     calcularPrecioNeto, 
+     calcularImpuesto,
+      calcularDescuento,
+     validarEntradas,
+     calcularTotalizador,
+      obtenerEstadoPorDefecto} from "./totalizador";
 
     describe("Totalizador de Ventas - Entradas y Precio Neto", () => {
     it("deberia obtener la cantidad ingresada", () => {
@@ -21,7 +29,7 @@ import { obtenerCantidad,obtenerPrecio,calcularPrecioNeto, calcularImpuesto, cal
      });
     it("deberia calcular el impuesto de 4.00% para AL", () => {
     expect(calcularImpuesto(60, "AL")).toEqual(2.40);
-    });
+    }); 
     it("deberia calcular el impuesto de 8.00% para NV", () => {
     expect(calcularImpuesto(60, "NV")).toEqual(4.80);
     });
@@ -81,6 +89,16 @@ import { obtenerCantidad,obtenerPrecio,calcularPrecioNeto, calcularImpuesto, cal
       porcentajeImpuesto: 6.25,
       estado: "TX",
       total: 1032.5,
+    });
+    });
+    describe("Estado por defecto", () => {
+    it("deberia asignar CA como estado por defecto si no se selecciona ninguno", () => {
+        expect(obtenerEstadoPorDefecto()).toEqual("CA");
+        expect(obtenerEstadoPorDefecto("")).toEqual("CA");
+    });
+
+    it("deberia mantener el estado seleccionado si el usuario ingresa uno", () => {
+        expect(obtenerEstadoPorDefecto("TX")).toEqual("TX");
     });
     });
 });
