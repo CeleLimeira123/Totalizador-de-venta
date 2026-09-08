@@ -107,7 +107,9 @@ import {
     expect(obtenerCategoriaPorDefecto()).toEqual("Varios");
     expect(obtenerCategoriaPorDefecto("")).toEqual("Varios");
      });
-
+     it("deberia mantener la categoria seleccionada si el usuario ingresa una", () => {
+    expect(obtenerCategoriaPorDefecto("Alimentos")).toEqual("Alimentos");
+     });
    
 });
 });

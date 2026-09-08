@@ -616,9 +616,23 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9f14c64c5df6106083c5b21dc3b6f4a8ef71e2ca",
     "commitName": "feat: asignar Varios como categoria por defecto cuando no se selecciona ninguna",
     "commitTimestamp": 1788907472628,
     "testId": 24
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1788907591877,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mantener la categoria seleccionada si el usuario especifica una",
+    "commitTimestamp": 1788907605220,
+    "testId": 25
   }
 ]
