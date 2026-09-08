@@ -30,3 +30,10 @@ export function calcularDescuento(monto) {
   
   return Number(descuento.toFixed(2));
 }
+
+export function validarEntradas(cantidad, precio, estado) {
+  if (cantidad <= 0) {
+    return "Cantidad invalida";
+  }
+  return null;
+}

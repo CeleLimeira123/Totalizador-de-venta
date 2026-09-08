@@ -338,9 +338,31 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "12ecece0775a29ef5b53076df58ace947d9b76f4",
     "commitName": "feat: aplicar 15% de descuento a partir de 30000",
     "commitTimestamp": 1788867799119,
     "testId": 11
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1788867913459,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1788867935821,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: agregar validacion para cantidad negativa o cero",
+    "commitTimestamp": 1788867951768,
+    "testId": 12
   }
 ]

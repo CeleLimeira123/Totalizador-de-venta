@@ -1,4 +1,4 @@
-import { calcularPrecioNeto, calcularImpuesto, calcularDescuento } from "./totalizador";
+import { calcularPrecioNeto, calcularImpuesto, calcularDescuento, validarEntradas } from "./totalizador";
 
 describe("Totalizador de Ventas - Precio Neto", () => {
     it("deberia calcular el precio neto multiplicando cantidad por precio", () => {
@@ -39,5 +39,12 @@ describe("Totalizador de Ventas - Precio Neto", () => {
     });
     it("deberia aplicar 15% de descuento a partir de 30000", () => {
     expect(calcularDescuento(30000)).toEqual(4500);
+    });
+
+    describe("Totalizador de Ventas - Validaciones", () => {
+    it("deberia retornar error por cantidad negativa o cero", () => {
+        expect(validarEntradas(-5, 10, "CA")).toEqual("Cantidad invalida");
+        expect(validarEntradas(0, 10, "CA")).toEqual("Cantidad invalida");
+    });
     });
 });
