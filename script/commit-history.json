@@ -361,17 +361,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9fb2d3c8f159097abefa19cea9b0165bee2106c0",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T19:09:59.000Z",
       "message": "feat: crear interfaz web HTML con selectores por defecto y campos de entrada",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/9fb2d3c8f159097abefa19cea9b0165bee2106c0"
     },
     "stats": {
       "total": 79,
       "additions": 61,
       "deletions": 18,
+      "date": "2026-09-08"
+    },
+    "coverage": 91.07,
+    "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-08T19:15:06.000Z",
+      "message": "feat: conectar presenter del DOM con la funcion integradora del totalizador",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 47,
+      "additions": 36,
+      "deletions": 11,
       "date": "2026-09-08"
     },
     "coverage": 91.07,

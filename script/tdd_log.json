@@ -546,9 +546,15 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9fb2d3c8f159097abefa19cea9b0165bee2106c0",
     "commitName": "feat: crear interfaz web HTML con selectores por defecto y campos de entrada",
     "commitTimestamp": 1788894602490,
     "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: conectar presenter del DOM con la funcion integradora del totalizador",
+    "commitTimestamp": 1788894907842,
+    "testId": 20
   }
 ]
