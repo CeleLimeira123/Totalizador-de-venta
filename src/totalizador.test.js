@@ -8,7 +8,8 @@ import {
      calcularTotalizador,
       obtenerEstadoPorDefecto,
     obtenerCategoriaPorDefecto,
-    obtenerDescuentoCategoria} from "./totalizador";
+    obtenerDescuentoCategoria,
+    obtenerImpuestoCategoria} from "./totalizador";
 
     describe("Totalizador de Ventas - Entradas y Precio Neto", () => {
     it("deberia obtener la cantidad ingresada", () => {
@@ -117,6 +118,11 @@ import {
     describe("Descuentos por Categoria", () => {
     it("deberia aplicar 2% de descuento adicional para la categoria Alimentos", () => {
         expect(obtenerDescuentoCategoria("Alimentos")).toEqual(0.02);
+    });
+    });
+    describe("Impuesto por Categoria", () => {
+    it("deberia aplicar 7% de impuesto adicional para la categoria Bebidas alcoholicas", () => {
+        expect(obtenerImpuestoCategoria("Bebidas alcoholicas")).toEqual(0.07);
     });
     });
 });

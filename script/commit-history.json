@@ -494,12 +494,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b8e9e2982feb8e5a7ade8716fc510e7069a4f660",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T22:50:06.000Z",
       "message": "feat: aplicar 2% de descuento adicional para la categoria Alimentos",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/b8e9e2982feb8e5a7ade8716fc510e7069a4f660"
     },
     "stats": {
       "total": 19,
@@ -509,6 +509,25 @@
     },
     "coverage": 90.16,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-08T22:55:21.000Z",
+      "message": "feat: aplicar impuesto adicional del 7% para la categoria Bebidas alcoholicas",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 90.48,
+    "test_count": 25,
     "failed_tests": 0,
     "conclusion": "success"
   }
