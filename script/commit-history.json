@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7e1376092bb7f76b32e45756aa8be2821efc7036",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T11:40:36.000Z",
       "message": "feat: aplicar 7% de descuento a partir de 7000",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/7e1376092bb7f76b32e45756aa8be2821efc7036"
     },
     "stats": {
       "total": 16,
@@ -186,6 +186,25 @@
     },
     "coverage": 91.3,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-08T11:41:32.000Z",
+      "message": "feat: aplicar 10% de descuento a partir de 10000",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 92,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

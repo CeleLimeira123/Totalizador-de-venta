@@ -34,4 +34,7 @@ describe("Totalizador de Ventas - Precio Neto", () => {
     it("deberia aplicar 7% de descuento a partir de 7000", () => {
     expect(calcularDescuento(7000)).toEqual(490);
     });
+    it("deberia aplicar 10% de descuento a partir de 10000", () => {
+    expect(calcularDescuento(10000)).toEqual(1000);
+    });
 });
