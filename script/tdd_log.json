@@ -150,9 +150,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6841a21d38ebb2f707e37890dcb40e9899378910",
     "commitName": "feat: agregar calculo de impuesto de 6.65% para UT",
     "commitTimestamp": 1788866797435,
     "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1788866820679,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788866897471,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar calculo de impuesto para TX y refactorizar mapa de tasas",
+    "commitTimestamp": 1788866914304,
+    "testId": 6
   }
 ]

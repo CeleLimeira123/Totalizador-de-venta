@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6841a21d38ebb2f707e37890dcb40e9899378910",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T11:26:34.000Z",
       "message": "feat: agregar calculo de impuesto de 6.65% para UT",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/6841a21d38ebb2f707e37890dcb40e9899378910"
     },
     "stats": {
       "total": 6,
@@ -110,6 +110,25 @@
     },
     "coverage": 90.91,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-08T11:28:31.000Z",
+      "message": "feat: agregar calculo de impuesto para TX y refactorizar mapa de tasas",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 38,
+      "additions": 22,
+      "deletions": 16,
+      "date": "2026-09-08"
+    },
+    "coverage": 92.31,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
