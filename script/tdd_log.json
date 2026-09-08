@@ -434,9 +434,31 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8c26d78fdf91bdb2022605d815f5ed27e264333e",
     "commitName": "feat: agregar funcion para obtener la cantidad ingresada",
     "commitTimestamp": 1788868388436,
     "testId": 15
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1788868412290,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788868475304,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar funcion para obtener el precio por item",
+    "commitTimestamp": 1788868484155,
+    "testId": 16
   }
 ]

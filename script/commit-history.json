@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8c26d78fdf91bdb2022605d815f5ed27e264333e",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T11:53:05.000Z",
       "message": "feat: agregar funcion para obtener la cantidad ingresada",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/8c26d78fdf91bdb2022605d815f5ed27e264333e"
     },
     "stats": {
       "total": 18,
@@ -300,6 +300,25 @@
     },
     "coverage": 94.12,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-08T11:54:41.000Z",
+      "message": "feat: agregar funcion para obtener el precio por item",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 94.29,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }

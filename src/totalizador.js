@@ -42,3 +42,6 @@ export function validarEntradas(cantidad, precio, estado) {
 export function obtenerCantidad(cantidad) {
   return cantidad;
 }
+export function obtenerPrecio(precio) {
+  return precio;
+}

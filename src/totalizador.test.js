@@ -1,9 +1,12 @@
-import { obtenerCantidad,calcularPrecioNeto, calcularImpuesto, calcularDescuento, validarEntradas } from "./totalizador";
+import { obtenerCantidad,obtenerPrecio,calcularPrecioNeto, calcularImpuesto, calcularDescuento, validarEntradas } from "./totalizador";
 
     describe("Totalizador de Ventas - Entradas y Precio Neto", () => {
     it("deberia obtener la cantidad ingresada", () => {
         expect(obtenerCantidad(20)).toEqual(20);
     });
+    it("deberia obtener el precio por item ingresado", () => {
+    expect(obtenerPrecio(3)).toEqual(3);
+     });
     });
 
     describe("Totalizador de Ventas - Precio Neto", () => {
