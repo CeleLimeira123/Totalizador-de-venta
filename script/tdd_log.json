@@ -120,9 +120,39 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7b5524dd66f79295fc71e8691fc0990385d6b29e",
     "commitName": "feat: agregar calculo de impuesto de 8.00% para NV",
     "commitTimestamp": 1788866710133,
     "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788866748446,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788866769136,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788866782062,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar calculo de impuesto de 6.65% para UT",
+    "commitTimestamp": 1788866797435,
+    "testId": 5
   }
 ]

@@ -12,5 +12,8 @@ export function calcularImpuesto(precioNeto, estado) {
   if (estado === "NV") {
     return Number((precioNeto * 0.0800).toFixed(2));
   }
+  if (estado === "UT") {
+    return Number((precioNeto * 0.0665).toFixed(2));
+  }
   return 0;
 }
