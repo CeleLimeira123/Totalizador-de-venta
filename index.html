@@ -1,19 +1,62 @@
-<!DOCTYPE html>
-<html xml:lang="es">
-  <head>
-    <title>Sumador</title>
-  </head>
-  <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
-    </form>
-    <div id="resultado-div"></div>
 
-    <script type="module" src="./src/presenter.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Totalizador de Ventas</title>
+</head>
+<body>
+  <h1>Totalizador de Ventas Avanzado</h1>
+
+  <form id="totalizador-form">
+    <label for="cantidad">Cantidad de Items:</label>
+    <input type="number" id="cantidad" value="20" required><br><br>
+
+    <label for="precio">Precio por Item ($):</label>
+    <input type="number" id="precio" step="0.01" value="3" required><br><br>
+
+    <label for="estado">Código de Estado (USA):</label>
+    <select id="estado">
+      <option value="CA" selected>CA - California</option>
+      <option value="AL">AL - Alabama</option>
+      <option value="NV">NV - Nevada</option>
+      <option value="UT">UT - Utah</option>
+      <option value="TX">TX - Texas</option>
+    </select><br><br>
+
+    <label for="categoria">Categoría de Producto:</label>
+    <select id="categoria">
+      <option value="Varios" selected>Varios</option>
+      <option value="Alimentos">Alimentos</option>
+      <option value="Bebidas alcoholicas">Bebidas alcohólicas</option>
+      <option value="Material de escritorio">Material de escritorio</option>
+      <option value="Muebles">Muebles</option>
+      <option value="Electronicos">Electrónicos</option>
+      <option value="Vestimenta">Vestimenta</option>
+    </select><br><br>
+
+    <label for="peso">Peso Volumétrico por unidad (lb):</label>
+    <input type="number" id="peso" step="0.1" value="0" required><br><br>
+
+    <label for="tipoCliente">Tipo de Cliente:</label>
+    <select id="tipoCliente">
+      <option value="Normal" selected>Normal</option>
+      <option value="Recurrente">Recurrente</option>
+      <option value="Antiguo Recurrente">Antiguo Recurrente</option>
+      <option value="Especial">Especial</option>
+    </select><br><br>
+
+    <button type="button" id="totalizar-btn">Totalizar</button>
+  </form>
+
+  <hr>
+
+  <h2>Desglose de la Venta</h2>
+  <div id="resultado-div">
+    <p>Ingrese los datos y presione "Totalizar" para ver el resultado.</p>
+  </div>
+
+  <script type="module" src="./src/presenter.js"></script>
+</body>
 </html>

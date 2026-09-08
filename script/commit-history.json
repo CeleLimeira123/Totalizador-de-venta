@@ -342,17 +342,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "18b1d39d7337eba792e64ca0910635f0d20ab1ff",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T13:41:44.000Z",
       "message": "fix: corregir duplicacion de funcion calcularTotalizador y formatear archivo de pruebas",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/18b1d39d7337eba792e64ca0910635f0d20ab1ff"
     },
     "stats": {
       "total": 33,
       "additions": 33,
       "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 91.07,
+    "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-08T19:09:59.000Z",
+      "message": "feat: crear interfaz web HTML con selectores por defecto y campos de entrada",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 79,
+      "additions": 61,
+      "deletions": 18,
       "date": "2026-09-08"
     },
     "coverage": 91.07,
