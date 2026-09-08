@@ -292,9 +292,55 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2992a4a710546668d3f40af554cf4f76a2b1b647",
     "commitName": "feat: aplicar 10% de descuento a partir de 10000",
     "commitTimestamp": 1788867695354,
     "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788867721160,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788867740666,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788867756185,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1788867772307,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788867789998,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar 15% de descuento a partir de 30000",
+    "commitTimestamp": 1788867799119,
+    "testId": 11
   }
 ]
