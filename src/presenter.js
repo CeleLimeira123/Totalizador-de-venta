@@ -17,7 +17,7 @@ botonTotalizar.addEventListener("click", () => {
   const peso = Number(pesoInput.value);
   const tipoCliente = tipoClienteSelect.value;
 
-  const res = calcularTotalizador(cantidad, precio, estado, categoria, peso, tipoCliente);
+  const res = calcularTotalizador(cantidad, precio, estado);
 
   if (typeof res === "string") {
     divResultado.innerHTML = `<p style="color: red;"><b>Error:</b> ${res}</p>`;
@@ -27,11 +27,11 @@ botonTotalizar.addEventListener("click", () => {
   divResultado.innerHTML = `
     <p><span>Precio Neto:</span> <span>$${res.precioNeto.toFixed(2)}</span></p>
     <p><span>Estado:</span> <span>${res.estado}</span></p>
-    <p><span>Categoría:</span> <span>${res.categoria}</span></p>
-    <p><span>Cliente:</span> <span>${res.tipoCliente}</span></p>
-    <p><span>Descuento (${res.porcentajeDescuento}%):</span> <span style="color: green;">-$${res.descuentoTotal.toFixed(2)}</span></p>
-    <p><span>Impuesto (${res.porcentajeImpuesto}%):</span> <span style="color: red;">+$${res.impuestoTotal.toFixed(2)}</span></p>
-    <p><span>Envío (${res.pesoVolumetrico} lb/u):</span> <span>+$${res.costoEnvio.toFixed(2)}</span></p>
+    <p><span>Categoría:</span> <span>${categoria}</span></p>
+    <p><span>Cliente:</span> <span>${tipoCliente}</span></p>
+    <p><span>Descuento (${res.porcentajeDescuento}%):</span> <span style="color: green;">-$${res.descuento.toFixed(2)}</span></p>
+    <p><span>Impuesto (${res.porcentajeImpuesto}%):</span> <span style="color: red;">+$${res.impuesto.toFixed(2)}</span></p>
+    <p><span>Envío (${peso} lb/u):</span> <span>+$0.00</span></p>
     <div class="total-line">
       <p><span>Total Final:</span> <span>$${res.total.toFixed(2)}</span></p>
     </div>

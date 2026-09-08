@@ -558,9 +558,15 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "97308a6828507ca2e75f028d47e720fae2a69d27",
     "commitName": "style & fix: simplificar diseno UI y asegurar renderizado correcto del desglose",
     "commitTimestamp": 1788896007225,
     "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: ajustar propiedades de res en presenter para coincidir con totalizador",
+    "commitTimestamp": 1788896758021,
+    "testId": 22
   }
 ]
