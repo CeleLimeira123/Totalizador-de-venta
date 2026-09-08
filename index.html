@@ -1,60 +1,148 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Totalizador de Ventas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 450px;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .form-group {
+      margin-bottom: 12px;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      font-size: 0.9rem;
+      color: #444;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 0.95rem;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .resultado {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #e9ecef;
+      border-radius: 5px;
+    }
+    .resultado p {
+      margin: 6px 0;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+    }
+    .total-line {
+      border-top: 2px solid #ccc;
+      padding-top: 8px;
+      margin-top: 8px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #111;
+    }
+  </style>
 </head>
 <body>
-  <h1>Totalizador de Ventas Avanzado</h1>
 
-  <form id="totalizador-form">
-    <label for="cantidad">Cantidad de Items:</label>
-    <input type="number" id="cantidad" value="20" required><br><br>
+  <div class="card">
+    <h1>Totalizador de Ventas</h1>
 
-    <label for="precio">Precio por Item ($):</label>
-    <input type="number" id="precio" step="0.01" value="3" required><br><br>
+    <div class="form-group">
+      <label>Cantidad de Items:</label>
+      <input type="number" id="cantidad" value="50" min="1">
+    </div>
 
-    <label for="estado">Código de Estado (USA):</label>
-    <select id="estado">
-      <option value="CA" selected>CA - California</option>
-      <option value="AL">AL - Alabama</option>
-      <option value="NV">NV - Nevada</option>
-      <option value="UT">UT - Utah</option>
-      <option value="TX">TX - Texas</option>
-    </select><br><br>
+    <div class="form-group">
+      <label>Precio por Item ($):</label>
+      <input type="number" id="precio" value="51.44" step="0.01" min="0">
+    </div>
 
-    <label for="categoria">Categoría de Producto:</label>
-    <select id="categoria">
-      <option value="Varios" selected>Varios</option>
-      <option value="Alimentos">Alimentos</option>
-      <option value="Bebidas alcoholicas">Bebidas alcohólicas</option>
-      <option value="Material de escritorio">Material de escritorio</option>
-      <option value="Muebles">Muebles</option>
-      <option value="Electronicos">Electrónicos</option>
-      <option value="Vestimenta">Vestimenta</option>
-    </select><br><br>
+    <div class="form-group">
+      <label>Estado (USA):</label>
+      <select id="estado">
+        <option value="CA">CA - California</option>
+        <option value="AL">AL - Alabama</option>
+        <option value="NV">NV - Nevada</option>
+        <option value="UT" selected>UT - Utah</option>
+        <option value="TX">TX - Texas</option>
+      </select>
+    </div>
 
-    <label for="peso">Peso Volumétrico por unidad (lb):</label>
-    <input type="number" id="peso" step="0.1" value="0" required><br><br>
+    <div class="form-group">
+      <label>Categoría:</label>
+      <select id="categoria">
+        <option value="Varios">Varios</option>
+        <option value="Alimentos">Alimentos</option>
+        <option value="Bebidas alcoholicas">Bebidas alcohólicas</option>
+        <option value="Material de escritorio">Material de escritorio</option>
+        <option value="Muebles">Muebles</option>
+        <option value="Electronicos">Electrónicos</option>
+        <option value="Vestimenta" selected>Vestimenta</option>
+      </select>
+    </div>
 
-    <label for="tipoCliente">Tipo de Cliente:</label>
-    <select id="tipoCliente">
-      <option value="Normal" selected>Normal</option>
-      <option value="Recurrente">Recurrente</option>
-      <option value="Antiguo Recurrente">Antiguo Recurrente</option>
-      <option value="Especial">Especial</option>
-    </select><br><br>
+    <div class="form-group">
+      <label>Peso Volumétrico por unidad (lb):</label>
+      <input type="number" id="peso" value="15" min="0">
+    </div>
+
+    <div class="form-group">
+      <label>Tipo de Cliente:</label>
+      <select id="tipoCliente">
+        <option value="Normal">Normal</option>
+        <option value="Recurrente" selected>Recurrente</option>
+        <option value="Antiguo Recurrente">Antiguo Recurrente</option>
+        <option value="Especial">Especial</option>
+      </select>
+    </div>
 
     <button type="button" id="totalizar-btn">Totalizar</button>
-  </form>
 
-  <hr>
-
-  <h2>Desglose de la Venta</h2>
-  <div id="resultado-div">
-    <p>Ingrese los datos y presione "Totalizar" para ver el resultado.</p>
+    <div class="resultado">
+      <h3>Desglose de la Venta</h3>
+      <div id="resultado-div">
+        <p>Presiona <b>Totalizar</b> para calcular.</p>
+      </div>
+    </div>
   </div>
 
   <script type="module" src="./src/presenter.js"></script>

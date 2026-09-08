@@ -1,4 +1,3 @@
-
 import { calcularTotalizador } from "./totalizador.js";
 
 const cantidadInput = document.querySelector("#cantidad");
@@ -18,23 +17,23 @@ botonTotalizar.addEventListener("click", () => {
   const peso = Number(pesoInput.value);
   const tipoCliente = tipoClienteSelect.value;
 
-  const resultado = calcularTotalizador(cantidad, precio, estado, categoria, peso, tipoCliente);
+  const res = calcularTotalizador(cantidad, precio, estado, categoria, peso, tipoCliente);
 
-  if (typeof resultado === "string") {
-    divResultado.innerHTML = `<p style="color: red; font-weight: bold;">Error: ${resultado}</p>`;
+  if (typeof res === "string") {
+    divResultado.innerHTML = `<p style="color: red;"><b>Error:</b> ${res}</p>`;
     return;
   }
 
   divResultado.innerHTML = `
-    <p><strong>Cantidad de items:</strong> ${resultado.cantidad}</p>
-    <p><strong>Precio por item:</strong> $${resultado.precio.toFixed(2)}</p>
-    <p><strong>Precio Neto (${resultado.cantidad} * $${resultado.precio}):</strong> $${resultado.precioNeto.toFixed(2)}</p>
-    <p><strong>Estado Seleccionado:</strong> ${resultado.estado}</p>
-    <p><strong>Categoría de Producto:</strong> ${resultado.categoria}</p>
-    <p><strong>Tipo de Cliente:</strong> ${resultado.tipoCliente}</p>
-    <p><strong>Descuento Aplicado (${resultado.porcentajeDescuento}% + Fijos):</strong> -$${resultado.descuentoTotal.toFixed(2)}</p>
-    <p><strong>Impuesto Aplicado (${resultado.porcentajeImpuesto}%):</strong> +$${resultado.impuestoTotal.toFixed(2)}</p>
-    <p><strong>Costo de Envío (${resultado.pesoVolumetrico} lb/u):</strong> +$${resultado.costoEnvio.toFixed(2)}</p>
-    <h3><strong>Precio Total:</strong> $${resultado.total.toFixed(2)}</h3>
+    <p><span>Precio Neto:</span> <span>$${res.precioNeto.toFixed(2)}</span></p>
+    <p><span>Estado:</span> <span>${res.estado}</span></p>
+    <p><span>Categoría:</span> <span>${res.categoria}</span></p>
+    <p><span>Cliente:</span> <span>${res.tipoCliente}</span></p>
+    <p><span>Descuento (${res.porcentajeDescuento}%):</span> <span style="color: green;">-$${res.descuentoTotal.toFixed(2)}</span></p>
+    <p><span>Impuesto (${res.porcentajeImpuesto}%):</span> <span style="color: red;">+$${res.impuestoTotal.toFixed(2)}</span></p>
+    <p><span>Envío (${res.pesoVolumetrico} lb/u):</span> <span>+$${res.costoEnvio.toFixed(2)}</span></p>
+    <div class="total-line">
+      <p><span>Total Final:</span> <span>$${res.total.toFixed(2)}</span></p>
+    </div>
   `;
 });

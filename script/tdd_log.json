@@ -552,9 +552,15 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2487c513eeb4f00981cd85c27d5ce2b97266a2fb",
     "commitName": "feat: conectar presenter del DOM con la funcion integradora del totalizador",
     "commitTimestamp": 1788894907842,
     "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "style & fix: simplificar diseno UI y asegurar renderizado correcto del desglose",
+    "commitTimestamp": 1788896007225,
+    "testId": 21
   }
 ]
