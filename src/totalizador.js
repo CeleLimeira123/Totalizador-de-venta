@@ -32,7 +32,9 @@ export function calcularDescuento(monto) {
 }
 
 export function validarEntradas(cantidad, precio, estado) {
+  const estadosValidos = ["CA", "AL", "NV", "UT", "TX"];
   if (cantidad <= 0) return "Cantidad invalida";
   if (precio < 0) return "Precio invalido";
+  if (estado && !estadosValidos.includes(estado)) return "Estado invalido";
   return null;
 }

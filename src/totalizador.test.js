@@ -50,4 +50,7 @@ describe("Totalizador de Ventas - Precio Neto", () => {
     it("deberia retornar error por precio negativo", () => {
     expect(validarEntradas(5, -10, "CA")).toEqual("Precio invalido");
     });
+    it("deberia retornar error por codigo de estado invalido", () => {
+    expect(validarEntradas(5, 10, "XX")).toEqual("Estado invalido");
+    });
 });
