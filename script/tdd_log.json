@@ -586,9 +586,39 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5564ff754029789aee0a5a716aeaed8ea73a156f",
     "commitName": "feat: asignar estado por defecto si no se selecciona ninguno",
     "commitTimestamp": 1788906998977,
     "testId": 23
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1788907350823,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1788907430367,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788907451876,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: asignar Varios como categoria por defecto cuando no se selecciona ninguna",
+    "commitTimestamp": 1788907472628,
+    "testId": 24
   }
 ]

@@ -83,3 +83,6 @@ export function calcularTotalizador(cantidad, precio, estado = "") {
 export function obtenerEstadoPorDefecto(estado) {
   return estado && estado.trim() !== "" ? estado : "CA";
 }
+export function obtenerCategoriaPorDefecto(categoria) {
+  return categoria && categoria.trim() !== "" ? categoria : "Varios";
+}

@@ -437,12 +437,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5564ff754029789aee0a5a716aeaed8ea73a156f",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T22:36:35.000Z",
       "message": "feat: asignar estado por defecto si no se selecciona ninguno",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/5564ff754029789aee0a5a716aeaed8ea73a156f"
     },
     "stats": {
       "total": 26,
@@ -452,6 +452,25 @@
     },
     "coverage": 91.23,
     "test_count": 21,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-08T22:44:28.000Z",
+      "message": "feat: asignar Varios como categoria por defecto cuando no se selecciona ninguna",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 91.38,
+    "test_count": 22,
     "failed_tests": 0,
     "conclusion": "success"
   }

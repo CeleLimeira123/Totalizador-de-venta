@@ -6,7 +6,8 @@ import {
       calcularDescuento,
      validarEntradas,
      calcularTotalizador,
-      obtenerEstadoPorDefecto} from "./totalizador";
+      obtenerEstadoPorDefecto,
+    obtenerCategoriaPorDefecto} from "./totalizador";
 
     describe("Totalizador de Ventas - Entradas y Precio Neto", () => {
     it("deberia obtener la cantidad ingresada", () => {
@@ -101,4 +102,12 @@ import {
         expect(obtenerEstadoPorDefecto("TX")).toEqual("TX");
     });
     });
+    describe("Categoria por defecto", () => {
+    it("deberia asignar Varios como categoria por defecto si no se selecciona ninguna", () => {
+    expect(obtenerCategoriaPorDefecto()).toEqual("Varios");
+    expect(obtenerCategoriaPorDefecto("")).toEqual("Varios");
+     });
+
+   
+});
 });
