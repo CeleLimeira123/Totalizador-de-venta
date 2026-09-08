@@ -76,9 +76,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c09ecf9e4a5c4fa5ccc49e28c7484e73c7e7ae82",
     "commitName": "feat: agregar calculo de impuesto para CA y corregir imports de pruebas",
     "commitTimestamp": 1788866207779,
     "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1788866603093,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788866616189,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar calculo de impuesto de 4.00% para AL",
+    "commitTimestamp": 1788866633163,
+    "testId": 3
   }
 ]

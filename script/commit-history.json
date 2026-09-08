@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c09ecf9e4a5c4fa5ccc49e28c7484e73c7e7ae82",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T11:16:44.000Z",
       "message": "feat: agregar calculo de impuesto para CA y corregir imports de pruebas",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/c09ecf9e4a5c4fa5ccc49e28c7484e73c7e7ae82"
     },
     "stats": {
       "total": 15,
@@ -53,6 +53,25 @@
     },
     "coverage": 80,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-08T11:23:49.000Z",
+      "message": "feat: agregar calculo de impuesto de 4.00% para AL",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 85.71,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }
