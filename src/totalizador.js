@@ -32,8 +32,7 @@ export function calcularDescuento(monto) {
 }
 
 export function validarEntradas(cantidad, precio, estado) {
-  if (cantidad <= 0) {
-    return "Cantidad invalida";
-  }
+  if (cantidad <= 0) return "Cantidad invalida";
+  if (precio < 0) return "Precio invalido";
   return null;
 }

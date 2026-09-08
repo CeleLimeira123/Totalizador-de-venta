@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1ff6da6a7182006fd2a24a8458d8b8249e57a459",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T11:45:48.000Z",
       "message": "fix: agregar validacion para cantidad negativa o cero",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/1ff6da6a7182006fd2a24a8458d8b8249e57a459"
     },
     "stats": {
       "total": 16,
@@ -243,6 +243,25 @@
     },
     "coverage": 92.86,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-08T11:46:46.000Z",
+      "message": "fix: agregar validacion para precio negativo",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 5,
+      "deletions": 3,
+      "date": "2026-09-08"
+    },
+    "coverage": 93.33,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }

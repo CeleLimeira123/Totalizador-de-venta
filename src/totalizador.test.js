@@ -47,4 +47,7 @@ describe("Totalizador de Ventas - Precio Neto", () => {
         expect(validarEntradas(0, 10, "CA")).toEqual("Cantidad invalida");
     });
     });
+    it("deberia retornar error por precio negativo", () => {
+    expect(validarEntradas(5, -10, "CA")).toEqual("Precio invalido");
+    });
 });

@@ -360,9 +360,31 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1ff6da6a7182006fd2a24a8458d8b8249e57a459",
     "commitName": "fix: agregar validacion para cantidad negativa o cero",
     "commitTimestamp": 1788867951768,
     "testId": 12
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1788867981027,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1788868000552,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: agregar validacion para precio negativo",
+    "commitTimestamp": 1788868009528,
+    "testId": 13
   }
 ]
