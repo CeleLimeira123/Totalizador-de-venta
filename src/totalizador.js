@@ -45,3 +45,17 @@ export function obtenerCantidad(cantidad) {
 export function obtenerPrecio(precio) {
   return precio;
 }
+
+export function calcularTotalizador(cantidad, precio, estado = "") {
+  const precioNeto = calcularPrecioNeto(cantidad, precio);
+  const descuento = calcularDescuento(precioNeto);
+  const impuesto = calcularImpuesto(precioNeto, estado);
+  const total = Number((precioNeto - descuento + impuesto).toFixed(2));
+
+  return {
+    precioNeto,
+    descuento,
+    impuesto,
+    total,
+  };
+}

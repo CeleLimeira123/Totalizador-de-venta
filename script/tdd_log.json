@@ -456,9 +456,31 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5119883e31633b5149f43c5f03b68d1322ebfb4f",
     "commitName": "feat: agregar funcion para obtener el precio por item",
     "commitTimestamp": 1788868484155,
     "testId": 16
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1788873137058,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788873158966,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular total e impuesto sobre precio neto en funcion integradora",
+    "commitTimestamp": 1788873181407,
+    "testId": 17
   }
 ]

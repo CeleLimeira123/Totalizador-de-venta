@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5119883e31633b5149f43c5f03b68d1322ebfb4f",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T11:54:41.000Z",
       "message": "feat: agregar funcion para obtener el precio por item",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/5119883e31633b5149f43c5f03b68d1322ebfb4f"
     },
     "stats": {
       "total": 8,
@@ -319,6 +319,25 @@
     },
     "coverage": 94.29,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-08T13:12:57.000Z",
+      "message": "feat: calcular total e impuesto sobre precio neto en funcion integradora",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 23,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 95,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }

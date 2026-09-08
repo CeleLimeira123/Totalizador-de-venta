@@ -1,4 +1,4 @@
-import { obtenerCantidad,obtenerPrecio,calcularPrecioNeto, calcularImpuesto, calcularDescuento, validarEntradas } from "./totalizador";
+import { obtenerCantidad,obtenerPrecio,calcularPrecioNeto, calcularImpuesto, calcularDescuento, validarEntradas,calcularTotalizador } from "./totalizador";
 
     describe("Totalizador de Ventas - Entradas y Precio Neto", () => {
     it("deberia obtener la cantidad ingresada", () => {
@@ -61,5 +61,13 @@ import { obtenerCantidad,obtenerPrecio,calcularPrecioNeto, calcularImpuesto, cal
     });
     it("deberia retornar error por codigo de estado invalido", () => {
     expect(validarEntradas(5, 10, "XX")).toEqual("Estado invalido");
+    });
+    
+    describe("Totalizador de Ventas - Integracion", () => {
+    it("deberia calcular el impuesto sobre el precio neto independientemente del descuento", () => {
+        const resultado = calcularTotalizador(100, 100, "TX");
+        expect(resultado.impuesto).toEqual(625);
+        expect(resultado.total).toEqual(9625);
+    });
     });
 });
