@@ -1,4 +1,4 @@
-import { calcularPrecioNeto, calcularImpuesto } from "./totalizador";
+import { calcularPrecioNeto, calcularImpuesto, calcularDescuento } from "./totalizador";
 
 describe("Totalizador de Ventas - Precio Neto", () => {
     it("deberia calcular el precio neto multiplicando cantidad por precio", () => {
@@ -21,5 +21,11 @@ describe("Totalizador de Ventas - Precio Neto", () => {
     });
     it("deberia calcular el impuesto de 6.25% para TX", () => {
     expect(calcularImpuesto(60, "TX")).toEqual(3.75);
+    });
+
+    describe("Totalizador de Ventas - Descuentos", () => {
+    it("deberia aplicar 3% de descuento a partir de 1000", () => {
+        expect(calcularDescuento(1000)).toEqual(30);
+    });
     });
 });

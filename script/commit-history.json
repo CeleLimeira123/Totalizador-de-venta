@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "917be995d59b0a448f7b9872f135e9adbec229b3",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T11:28:31.000Z",
       "message": "feat: agregar calculo de impuesto para TX y refactorizar mapa de tasas",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/917be995d59b0a448f7b9872f135e9adbec229b3"
     },
     "stats": {
       "total": 38,
@@ -129,6 +129,25 @@
     },
     "coverage": 92.31,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-08T11:33:07.000Z",
+      "message": "feat: aplicar 3% de descuento a partir de 1000",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 87.5,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -172,9 +172,39 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "917be995d59b0a448f7b9872f135e9adbec229b3",
     "commitName": "feat: agregar calculo de impuesto para TX y refactorizar mapa de tasas",
     "commitTimestamp": 1788866914304,
     "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788866942966,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788867145296,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788867174342,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar 3% de descuento a partir de 1000",
+    "commitTimestamp": 1788867190444,
+    "testId": 7
   }
 ]

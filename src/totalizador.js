@@ -20,3 +20,7 @@ export function calcularImpuesto(precioNeto, estado) {
   }
   return 0;
 }
+export function calcularDescuento(monto) {
+  if (monto >= 1000) return monto * 0.03;
+  return 0;
+}
