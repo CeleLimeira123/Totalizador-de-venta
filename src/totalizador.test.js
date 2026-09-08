@@ -1,8 +1,14 @@
-import { calcularPrecioNeto, calcularImpuesto, calcularDescuento, validarEntradas } from "./totalizador";
+import { obtenerCantidad,calcularPrecioNeto, calcularImpuesto, calcularDescuento, validarEntradas } from "./totalizador";
 
-describe("Totalizador de Ventas - Precio Neto", () => {
-    it("deberia calcular el precio neto multiplicando cantidad por precio", () => {
-        expect(calcularPrecioNeto(20, 3)).toEqual(60);
+    describe("Totalizador de Ventas - Entradas y Precio Neto", () => {
+    it("deberia obtener la cantidad ingresada", () => {
+        expect(obtenerCantidad(20)).toEqual(20);
+    });
+    });
+
+    describe("Totalizador de Ventas - Precio Neto", () => {
+        it("deberia calcular el precio neto multiplicando cantidad por precio", () => {
+            expect(calcularPrecioNeto(20, 3)).toEqual(60);
     });
     });
 

@@ -38,3 +38,7 @@ export function validarEntradas(cantidad, precio, estado) {
   if (estado && !estadosValidos.includes(estado)) return "Estado invalido";
   return null;
 }
+
+export function obtenerCantidad(cantidad) {
+  return cantidad;
+}

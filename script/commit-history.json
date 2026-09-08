@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9054560061b8736ec705befb032bd2cf43ec7c96",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T11:47:53.000Z",
       "message": "fix: agregar validacion para codigo de estado invalido",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/9054560061b8736ec705befb032bd2cf43ec7c96"
     },
     "stats": {
       "total": 5,
@@ -281,6 +281,25 @@
     },
     "coverage": 93.94,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-08T11:53:05.000Z",
+      "message": "feat: agregar funcion para obtener la cantidad ingresada",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 14,
+      "deletions": 4,
+      "date": "2026-09-08"
+    },
+    "coverage": 94.12,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }
