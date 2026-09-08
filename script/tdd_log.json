@@ -38,9 +38,47 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "741e6f85f4c6fde784817e73e12cc0782cdeac12",
     "commitName": "feat: calcular precio neto multiplicando cantidad por precio",
     "commitTimestamp": 1788864816444,
     "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788864871925,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788865806561,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788866117764,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788866187343,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar calculo de impuesto para CA y corregir imports de pruebas",
+    "commitTimestamp": 1788866207779,
+    "testId": 2
   }
 ]
