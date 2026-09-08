@@ -21,7 +21,12 @@ export function calcularImpuesto(precioNeto, estado) {
   return 0;
 }
 export function calcularDescuento(monto) {
-  if (monto >= 3000) return monto * 0.05;
-  if (monto >= 1000) return monto * 0.03;
-  return 0;
+  let descuento = 0;
+  if (monto >= 30000) descuento = monto * 0.15;
+  
+  else if (monto >= 7000) descuento = monto * 0.07;
+  else if (monto >= 3000) descuento = monto * 0.05;
+  else if (monto >= 1000) descuento = monto * 0.03;
+  
+  return Number(descuento.toFixed(2));
 }
