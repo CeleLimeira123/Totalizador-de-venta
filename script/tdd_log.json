@@ -1,8 +1,46 @@
 [
   {
-    "commitId": "HEAD",
+    "commitId": "69ec7adcb835afb5fffbc4eb8cc1a8df287fe769",
     "commitName": "feat: implementar lógica inicial para el totalizador de ventas",
     "commitTimestamp": 1788835060085,
     "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1788864656295,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1788864673076,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1788864700926,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1788864779393,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio neto multiplicando cantidad por precio",
+    "commitTimestamp": 1788864816444,
+    "testId": 1
   }
 ]

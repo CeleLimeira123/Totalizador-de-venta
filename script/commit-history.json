@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "69ec7adcb835afb5fffbc4eb8cc1a8df287fe769",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T02:37:36.000Z",
       "message": "feat: implementar lógica inicial para el totalizador de ventas",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/69ec7adcb835afb5fffbc4eb8cc1a8df287fe769"
     },
     "stats": {
       "total": 29963,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-08T10:53:33.000Z",
+      "message": "feat: calcular precio neto multiplicando cantidad por precio",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
