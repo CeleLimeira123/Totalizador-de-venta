@@ -97,6 +97,7 @@ export function obtenerImpuestoCategoria(categoria = "Varios") {
   const impuestos = {
     "Bebidas alcoholicas": 0.07,
     "Muebles": 0.03,
+    "Electronicos": 0.04,
   };
   return impuestos[categoria] || 0;
 }

@@ -551,12 +551,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "204455553a39f2be9e906cfc4811bfb1389babda",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-09T12:41:52.000Z",
       "message": "feat: aplicar impuesto adicional del 3% para la categoria Muebles",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/204455553a39f2be9e906cfc4811bfb1389babda"
     },
     "stats": {
       "total": 4,
@@ -566,6 +566,25 @@
     },
     "coverage": 91.94,
     "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-09T13:01:45.000Z",
+      "message": "feat: aplicar impuesto adicional del 4% para la categoria Electronicos",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 10,
+      "deletions": 3,
+      "date": "2026-09-09"
+    },
+    "coverage": 91.94,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }

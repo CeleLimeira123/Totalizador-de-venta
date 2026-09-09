@@ -124,13 +124,19 @@ import {
     it("deberia aplicar 7% de impuesto adicional para la categoria Bebidas alcoholicas", () => {
         expect(obtenerImpuestoCategoria("Bebidas alcoholicas")).toEqual(0.07);
     });
+    it("deberia aplicar 3% de impuesto adicional para la categoria Muebles", () => {
+    expect(obtenerImpuestoCategoria("Muebles")).toEqual(0.03);
     });
+    it("deberia aplicar 4% de impuesto adicional para la categoria Electronicos", () => {
+    expect(obtenerImpuestoCategoria("Electronicos")).toEqual(0.04);
+    });
+    });
+
+    
     describe("Descuento por Categoria", () => {
     it("deberia aplicar 1.5% de descuento adicional para la categoria Material de escritorio", () => {
         expect(obtenerDescuentoCategoria("Material de escritorio")).toEqual(0.015);
     });
-    it("deberia aplicar 3% de impuesto adicional para la categoria Muebles", () => {
-    expect(obtenerImpuestoCategoria("Muebles")).toEqual(0.03);
-    });
+    
     });
 });
