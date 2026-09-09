@@ -10,7 +10,8 @@ import {
     obtenerCategoriaPorDefecto,
     obtenerDescuentoCategoria,
     obtenerImpuestoCategoria,
-    calcularCostoEnvio} from "./totalizador";
+    calcularCostoEnvio,
+    obtenerClientePorDefecto} from "./totalizador";
 
     describe("Totalizador de Ventas - Entradas y Precio Neto", () => {
     it("deberia obtener la cantidad ingresada", () => {
@@ -169,5 +170,16 @@ import {
     it("deberia calcular el costo de envio de 9 por unidad para peso volumetrico mayor a 200", () => {
     expect(calcularCostoEnvio(250, 1)).toEqual(9); 
     });
-});
+    });
+
+    describe("Tipo de cliente por defecto", () => {
+    it("deberia asignar Normal como tipo de cliente por defecto si no se elige ninguno", () => {
+        expect(obtenerClientePorDefecto()).toEqual("Normal");
+        expect(obtenerClientePorDefecto("")).toEqual("Normal");
+    });
+
+    it("deberia mantener el tipo de cliente seleccionado si se ingresa uno", () => {
+        expect(obtenerClientePorDefecto("Recurrente")).toEqual("Recurrente");
+    });
+    });
 });

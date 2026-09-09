@@ -741,12 +741,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a07a48e5fa3360a8997f1542df712baa65cf3c34",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-09T13:25:20.000Z",
       "message": "feat: calcular costo de envio para peso volumetrico mayor a 200",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/a07a48e5fa3360a8997f1542df712baa65cf3c34"
     },
     "stats": {
       "total": 5,
@@ -756,6 +756,25 @@
     },
     "coverage": 93.33,
     "test_count": 37,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-09T13:28:15.000Z",
+      "message": "feat: asignar Normal como tipo de cliente por defecto si no se elige ninguno",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 18,
+      "deletions": 2,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.42,
+    "test_count": 39,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -126,3 +126,7 @@ export function calcularCostoEnvio(pesoVolumetrico, cantidad) {
   }
  return 9 * cantidad;
 }
+
+export function obtenerClientePorDefecto(tipoCliente) {
+  return tipoCliente && tipoCliente.trim() !== "" ? tipoCliente : "Normal";
+}

@@ -946,9 +946,31 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a07a48e5fa3360a8997f1542df712baa65cf3c34",
     "commitName": "feat: calcular costo de envio para peso volumetrico mayor a 200",
     "commitTimestamp": 1788960324053,
     "testId": 39
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 2,
+    "numTotalTests": 39,
+    "timestamp": 1788960461367,
+    "success": false,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1788960482334,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: asignar Normal como tipo de cliente por defecto si no se elige ninguno",
+    "commitTimestamp": 1788960499090,
+    "testId": 40
   }
 ]
