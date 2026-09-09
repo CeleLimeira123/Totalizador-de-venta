@@ -152,10 +152,13 @@ import {
     expect(calcularCostoEnvio(10, 1)).toEqual(0);
     });
     it("deberia calcular el costo de envio de 3.5 por unidad para peso volumetrico de 11 a 20", () => {
-    expect(calcularCostoEnvio(15, 2)).toEqual(7); // 15 * 2
+    expect(calcularCostoEnvio(15, 2)).toEqual(7); 
     });
     it("deberia calcular el costo de envio de 5 por unidad para peso volumetrico de 21 a 40", () => {
-    expect(calcularCostoEnvio(30, 3)).toEqual(15); // 30 * 3
+    expect(calcularCostoEnvio(30, 3)).toEqual(15); 
+    });
+    it("deberia calcular el costo de envio de 6 por unidad para peso volumetrico de 41 a 80", () => {
+    expect(calcularCostoEnvio(50, 2)).toEqual(12); 
     });
 });
 });
