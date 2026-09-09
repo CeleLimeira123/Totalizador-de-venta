@@ -1164,9 +1164,15 @@
     "testId": 50
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b3e0b38989945eb347c60c5887a44654e1546a32",
     "commitName": "refactor: optimizar calculo de impuestos estatales usando diccionario",
     "commitTimestamp": 1788978825366,
     "testId": 50
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor(calculos): reutilizar funciones existentes en obtenerDetalleCompra",
+    "commitTimestamp": 1788981383760,
+    "testId": 51
   }
 ]

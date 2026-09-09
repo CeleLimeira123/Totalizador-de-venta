@@ -950,12 +950,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b3e0b38989945eb347c60c5887a44654e1546a32",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-09T18:33:42.000Z",
       "message": "refactor: optimizar calculo de impuestos estatales usando diccionario",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/b3e0b38989945eb347c60c5887a44654e1546a32"
     },
     "stats": {
       "total": 26,
@@ -964,6 +964,25 @@
       "date": "2026-09-09"
     },
     "coverage": 96,
+    "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-09T19:16:20.000Z",
+      "message": "refactor(calculos): reutilizar funciones existentes en obtenerDetalleCompra",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 46,
+      "additions": 29,
+      "deletions": 17,
+      "date": "2026-09-09"
+    },
+    "coverage": 96.15,
     "test_count": 48,
     "failed_tests": 0,
     "conclusion": "success"

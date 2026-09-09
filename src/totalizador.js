@@ -161,14 +161,33 @@ export function calcularPrecioTotal(precioItem, cantidad, estado, categoria, pes
   const totalFinal = montoConImpuesto + envioFinal - descuentoEspecial;
   return Number(totalFinal.toFixed(2));
 }
+
+export function validarDatosCompra(precioItem, cantidad) {
+  if (precioItem === null || precioItem === undefined || precioItem === "" ||
+      cantidad === null || cantidad === undefined || cantidad === "") {
+    return "Faltan datos obligatorios para calcular la compra";
+  }
+  return "";
+}
+
+
 export function obtenerDetalleCompra(precioItem, cantidad, estado, categoria, pesoVolumetrico, tipoCliente) {
-  const subtotal = precioItem * cantidad;
-  const descuentoCat = obtenerDescuentoCategoria(categoria);
-  const impuestoCat = obtenerImpuestoCategoria(categoria);
+  const subtotal = calcularPrecioNeto(cantidad, precioItem);
   
-  const montoDescuento = subtotal * descuentoCat;
-  const montoImpuesto = (subtotal - montoDescuento) * impuestoCat;
-  const montoConImpuesto = (subtotal - montoDescuento) + montoImpuesto;
+  // Usamos tu función calcularDescuento ya existente
+  const descuentoMonto = calcularDescuento(subtotal);
+  const porcentajeDescCat = obtenerDescuentoCategoria(categoria);
+  const descuentoCatMonto = subtotal * porcentajeDescCat;
+  const totalDescuentos = descuentoMonto + descuentoCatMonto;
+
+  const subtotalConDescuento = subtotal - totalDescuentos;
+
+  // Usamos tu función calcularImpuesto ya existente (pasándole el subtotal con descuento)
+  const impuestoEstatalMonto = calcularImpuesto(subtotalConDescuento, estado);
+  const impuestoCatMonto = subtotalConDescuento * obtenerImpuestoCategoria(categoria);
+  
+  const totalImpuestos = impuestoEstatalMonto + impuestoCatMonto;
+  const montoConImpuesto = subtotalConDescuento + totalImpuestos;
   
   const envioBase = calcularCostoEnvio(pesoVolumetrico, cantidad);
   const envioFinal = aplicarDescuentoEnvioCliente(envioBase, tipoCliente);
@@ -178,16 +197,9 @@ export function obtenerDetalleCompra(precioItem, cantidad, estado, categoria, pe
 
   return {
     subtotal,
-    totalImpuestos: montoImpuesto,
-    totalDescuentos: montoDescuento + descuentoEspecial,
-    costoEnvioFinal: envioFinal,
+    totalImpuestos: Number(totalImpuestos.toFixed(2)),
+    totalDescuentos: Number((totalDescuentos + descuentoEspecial).toFixed(2)),
+    costoEnvioFinal: Number(envioFinal.toFixed(2)),
     precioTotal: Number(totalFinal.toFixed(2))
   };
-}
-export function validarDatosCompra(precioItem, cantidad) {
-  if (precioItem === null || precioItem === undefined || precioItem === "" ||
-      cantidad === null || cantidad === undefined || cantidad === "") {
-    return "Faltan datos obligatorios para calcular la compra";
-  }
-  return "";
 }
