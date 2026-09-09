@@ -874,12 +874,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "47b26de71bb28b30fa3b11d9a0cec7eea639cb9a",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-09T15:11:49.000Z",
       "message": "feat: calcular el precio total final integrando impuestos, descuentos y envio",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/47b26de71bb28b30fa3b11d9a0cec7eea639cb9a"
     },
     "stats": {
       "total": 27,
@@ -889,6 +889,25 @@
     },
     "coverage": 94.68,
     "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-09T15:16:40.000Z",
+      "message": "feat: mostrar el detalle completo de los valores usados para calcular la compra",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 55,
+      "additions": 45,
+      "deletions": 10,
+      "date": "2026-09-09"
+    },
+    "coverage": 95.24,
+    "test_count": 46,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -167,3 +167,26 @@ export function calcularPrecioTotal(precioItem, cantidad, estado, categoria, pes
   const totalFinal = montoConImpuesto + envioFinal - descuentoEspecial;
   return Number(totalFinal.toFixed(2));
 }
+export function obtenerDetalleCompra(precioItem, cantidad, estado, categoria, pesoVolumetrico, tipoCliente) {
+  const subtotal = precioItem * cantidad;
+  const descuentoCat = obtenerDescuentoCategoria(categoria);
+  const impuestoCat = obtenerImpuestoCategoria(categoria);
+  
+  const montoDescuento = subtotal * descuentoCat;
+  const montoImpuesto = (subtotal - montoDescuento) * impuestoCat;
+  const montoConImpuesto = (subtotal - montoDescuento) + montoImpuesto;
+  
+  const envioBase = calcularCostoEnvio(pesoVolumetrico, cantidad);
+  const envioFinal = aplicarDescuentoEnvioCliente(envioBase, tipoCliente);
+  const descuentoEspecial = aplicarDescuentoEspecialCategoria(tipoCliente, categoria, montoConImpuesto);
+
+  const totalFinal = montoConImpuesto + envioFinal - descuentoEspecial;
+
+  return {
+    subtotal,
+    totalImpuestos: montoImpuesto,
+    totalDescuentos: montoDescuento + descuentoEspecial,
+    costoEnvioFinal: envioFinal,
+    precioTotal: Number(totalFinal.toFixed(2))
+  };
+}

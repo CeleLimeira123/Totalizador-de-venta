@@ -1,12 +1,12 @@
 import {
-     obtenerCantidad,
-     obtenerPrecio,
-     calcularPrecioNeto, 
-     calcularImpuesto,
-      calcularDescuento,
-     validarEntradas,
-     calcularTotalizador,
-      obtenerEstadoPorDefecto,
+    obtenerCantidad,
+    obtenerPrecio,
+    calcularPrecioNeto, 
+    calcularImpuesto,
+    calcularDescuento,
+    validarEntradas,
+    calcularTotalizador,
+    obtenerEstadoPorDefecto,
     obtenerCategoriaPorDefecto,
     obtenerDescuentoCategoria,
     obtenerImpuestoCategoria,
@@ -14,7 +14,8 @@ import {
     obtenerClientePorDefecto,
     aplicarDescuentoEnvioCliente,
     aplicarDescuentoEspecialCategoria,
-    calcularPrecioTotal} from "./totalizador";
+    calcularPrecioTotal,
+    obtenerDetalleCompra} from "./totalizador";
 
     describe("Totalizador de Ventas - Entradas y Precio Neto", () => {
     it("deberia obtener la cantidad ingresada", () => {
@@ -211,5 +212,16 @@ import {
     const resultado = calcularPrecioTotal(100, 2, "CA", "Varios", 5, "Normal");
         expect(resultado).toBeGreaterThan(0);
     });
-});
+    });
+
+    describe("Detalle de la compra", () => {
+    it("deberia retornar un objeto con el detalle completo de los valores usados en el calculo", () => {
+        const detalle = obtenerDetalleCompra(100, 2, "CA", "Varios", 5, "Normal");
+        expect(detalle).toHaveProperty("subtotal");
+        expect(detalle).toHaveProperty("totalImpuestos");
+        expect(detalle).toHaveProperty("totalDescuentos");
+        expect(detalle).toHaveProperty("costoEnvioFinal");
+        expect(detalle).toHaveProperty("precioTotal");
+    });
+    });
 });

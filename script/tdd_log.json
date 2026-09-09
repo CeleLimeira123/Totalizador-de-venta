@@ -1100,9 +1100,31 @@
     "testId": 46
   },
   {
-    "commitId": "HEAD",
+    "commitId": "47b26de71bb28b30fa3b11d9a0cec7eea639cb9a",
     "commitName": "feat: calcular el precio total final integrando impuestos, descuentos y envio",
     "commitTimestamp": 1788966713294,
     "testId": 46
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 1,
+    "numTotalTests": 46,
+    "timestamp": 1788966791578,
+    "success": false,
+    "testId": 47
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 0,
+    "numTotalTests": 46,
+    "timestamp": 1788966994270,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar el detalle completo de los valores usados para calcular la compra",
+    "commitTimestamp": 1788967003788,
+    "testId": 47
   }
 ]
