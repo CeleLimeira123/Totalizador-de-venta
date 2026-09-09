@@ -125,4 +125,9 @@ import {
         expect(obtenerImpuestoCategoria("Bebidas alcoholicas")).toEqual(0.07);
     });
     });
+    describe("Descuento por Categoria", () => {
+    it("deberia aplicar 1.5% de descuento adicional para la categoria Material de escritorio", () => {
+        expect(obtenerDescuentoCategoria("Material de escritorio")).toEqual(0.015);
+    });
+    });
 });

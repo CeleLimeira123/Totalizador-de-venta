@@ -682,9 +682,31 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bc41f3897f7068e2d9e600db9b9a60a6d4af9404",
     "commitName": "feat: aplicar impuesto adicional del 7% para la categoria Bebidas alcoholicas",
     "commitTimestamp": 1788908125085,
     "testId": 27
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1788956422713,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1788957518643,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: usar diccionario para descuentos por categoria y soportar material de escritorio",
+    "commitTimestamp": 1788957548307,
+    "testId": 28
   }
 ]

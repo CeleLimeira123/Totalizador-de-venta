@@ -87,10 +87,11 @@ export function obtenerCategoriaPorDefecto(categoria) {
   return categoria && categoria.trim() !== "" ? categoria : "Varios";
 }
 export function obtenerDescuentoCategoria(categoria = "Varios") {
-  if (categoria === "Alimentos") {
-    return 0.02;
-  }
-  return 0;
+  const descuentos = {
+    "Alimentos": 0.02,
+    "Material de escritorio": 0.015,
+  };
+  return descuentos[categoria] || 0;
 }
 export function obtenerImpuestoCategoria(categoria = "Varios") {
   const impuestos = {

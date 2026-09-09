@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bc41f3897f7068e2d9e600db9b9a60a6d4af9404",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-08T22:55:21.000Z",
       "message": "feat: aplicar impuesto adicional del 7% para la categoria Bebidas alcoholicas",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/bc41f3897f7068e2d9e600db9b9a60a6d4af9404"
     },
     "stats": {
       "total": 14,
@@ -528,6 +528,25 @@
     },
     "coverage": 90.48,
     "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-09T12:39:04.000Z",
+      "message": "refactor: usar diccionario para descuentos por categoria y soportar material de escritorio",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 10,
+      "deletions": 4,
+      "date": "2026-09-09"
+    },
+    "coverage": 91.94,
+    "test_count": 26,
     "failed_tests": 0,
     "conclusion": "success"
   }
