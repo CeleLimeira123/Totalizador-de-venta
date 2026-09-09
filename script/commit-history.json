@@ -646,12 +646,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d0fb6ef19048db6bb101ed246b185149d38abd5f",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-09T13:14:42.000Z",
       "message": "feat: calcular costo de envio para peso volumetrico de 11 a 20",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/d0fb6ef19048db6bb101ed246b185149d38abd5f"
     },
     "stats": {
       "total": 8,
@@ -661,6 +661,25 @@
     },
     "coverage": 91.04,
     "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-09T13:17:06.000Z",
+      "message": "feat: calcular costo de envio para peso volumetrico de 21 a 40",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 91.3,
+    "test_count": 33,
     "failed_tests": 0,
     "conclusion": "success"
   }
