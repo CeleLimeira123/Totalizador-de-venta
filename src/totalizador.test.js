@@ -188,5 +188,8 @@ import {
     it("deberia aplicar pequeño descuento del 0.5% en el envio para clientes Recurrente", () => {
         expect(aplicarDescuentoEnvioCliente(100, "Recurrente")).toEqual(99.5);
     });
+    it("deberia aplicar descuento en el envio para clientes Antiguo Recurrente", () => {
+    expect(aplicarDescuentoEnvioCliente(100, "Antiguo Recurrente")).toEqual(98.5); // 1.5% de descuento (ejemplo: 98.5)
+    });
     });
 });

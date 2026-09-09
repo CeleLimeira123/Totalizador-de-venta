@@ -779,12 +779,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "810a8223ae7a07e4f10289d7cef087b6a2e290c2",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-09T13:50:53.000Z",
       "message": "feat: aplicar descuento en envio para clientes Recurrente",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/810a8223ae7a07e4f10289d7cef087b6a2e290c2"
     },
     "stats": {
       "total": 17,
@@ -794,6 +794,25 @@
     },
     "coverage": 93.67,
     "test_count": 40,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-09T14:01:53.000Z",
+      "message": "feat: aplicar descuento en envio para clientes Antiguo Recurrente",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.67,
+    "test_count": 41,
     "failed_tests": 0,
     "conclusion": "success"
   }
