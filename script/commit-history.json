@@ -760,12 +760,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "db7630b9ab9aef4b0c43d69509e8d4a927fde96e",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-09T13:28:15.000Z",
       "message": "feat: asignar Normal como tipo de cliente por defecto si no se elige ninguno",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/db7630b9ab9aef4b0c43d69509e8d4a927fde96e"
     },
     "stats": {
       "total": 20,
@@ -775,6 +775,25 @@
     },
     "coverage": 93.42,
     "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-09T13:50:53.000Z",
+      "message": "feat: aplicar descuento en envio para clientes Recurrente",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 16,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.67,
+    "test_count": 40,
     "failed_tests": 0,
     "conclusion": "success"
   }

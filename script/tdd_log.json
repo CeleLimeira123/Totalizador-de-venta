@@ -968,9 +968,31 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "db7630b9ab9aef4b0c43d69509e8d4a927fde96e",
     "commitName": "feat: asignar Normal como tipo de cliente por defecto si no se elige ninguno",
     "commitTimestamp": 1788960499090,
     "testId": 40
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 1,
+    "numTotalTests": 40,
+    "timestamp": 1788961717613,
+    "success": false,
+    "testId": 41
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 0,
+    "numTotalTests": 40,
+    "timestamp": 1788961793976,
+    "success": true,
+    "testId": 41
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento en envio para clientes Recurrente",
+    "commitTimestamp": 1788961857372,
+    "testId": 41
   }
 ]

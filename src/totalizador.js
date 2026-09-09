@@ -130,3 +130,11 @@ export function calcularCostoEnvio(pesoVolumetrico, cantidad) {
 export function obtenerClientePorDefecto(tipoCliente) {
   return tipoCliente && tipoCliente.trim() !== "" ? tipoCliente : "Normal";
 }
+
+export function aplicarDescuentoEnvioCliente(costoEnvio, tipoCliente = "Normal") {
+  const descuentosEnvio = {
+    "Recurrente": 0.005,
+  };
+  const descuento = descuentosEnvio[tipoCliente] || 0;
+  return costoEnvio * (1 - descuento);
+}

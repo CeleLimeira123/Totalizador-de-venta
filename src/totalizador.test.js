@@ -11,7 +11,8 @@ import {
     obtenerDescuentoCategoria,
     obtenerImpuestoCategoria,
     calcularCostoEnvio,
-    obtenerClientePorDefecto} from "./totalizador";
+    obtenerClientePorDefecto,
+    aplicarDescuentoEnvioCliente} from "./totalizador";
 
     describe("Totalizador de Ventas - Entradas y Precio Neto", () => {
     it("deberia obtener la cantidad ingresada", () => {
@@ -180,6 +181,12 @@ import {
 
     it("deberia mantener el tipo de cliente seleccionado si se ingresa uno", () => {
         expect(obtenerClientePorDefecto("Recurrente")).toEqual("Recurrente");
+    });
+    });
+
+    describe("Descuento en envio por tipo de cliente", () => {
+    it("deberia aplicar pequeño descuento del 0.5% en el envio para clientes Recurrente", () => {
+        expect(aplicarDescuentoEnvioCliente(100, "Recurrente")).toEqual(99.5);
     });
     });
 });
