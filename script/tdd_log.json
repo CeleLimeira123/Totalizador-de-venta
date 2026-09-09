@@ -1034,9 +1034,31 @@
     "testId": 43
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8dbfedfabae3c3dea89bc183e2419211d8e2db0d",
     "commitName": "feat: aplicar mayor descuento en envio para clientes Especial",
     "commitTimestamp": 1788962814292,
     "testId": 43
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 1,
+    "numTotalTests": 43,
+    "timestamp": 1788963019880,
+    "success": false,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 0,
+    "numTotalTests": 43,
+    "timestamp": 1788963082983,
+    "success": true,
+    "testId": 44
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento fijo especial para clientes Recurrente que compran Alimentos por monto considerable",
+    "commitTimestamp": 1788963100260,
+    "testId": 44
   }
 ]

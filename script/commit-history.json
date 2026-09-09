@@ -817,12 +817,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8dbfedfabae3c3dea89bc183e2419211d8e2db0d",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-09T14:06:51.000Z",
       "message": "feat: aplicar mayor descuento en envio para clientes Especial",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/8dbfedfabae3c3dea89bc183e2419211d8e2db0d"
     },
     "stats": {
       "total": 4,
@@ -832,6 +832,25 @@
     },
     "coverage": 93.67,
     "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-09T14:11:36.000Z",
+      "message": "feat: aplicar descuento fijo especial para clientes Recurrente que compran Alimentos por monto considerable",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 17,
+      "additions": 15,
+      "deletions": 2,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.68,
+    "test_count": 43,
     "failed_tests": 0,
     "conclusion": "success"
   }
