@@ -792,9 +792,31 @@
     "testId": 32
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8021cd4e544664438a3c56015fd6a917263d31bc",
     "commitName": "feat: aplicar impuesto adicional del 2% para la categoria Vestimenta",
     "commitTimestamp": 1788959233154,
     "testId": 32
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1788959316783,
+    "success": false,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1788959341261,
+    "success": true,
+    "testId": 33
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: no cobrar costo de envio si el peso volumetrico es hasta 10",
+    "commitTimestamp": 1788959357860,
+    "testId": 33
   }
 ]

@@ -9,7 +9,8 @@ import {
       obtenerEstadoPorDefecto,
     obtenerCategoriaPorDefecto,
     obtenerDescuentoCategoria,
-    obtenerImpuestoCategoria} from "./totalizador";
+    obtenerImpuestoCategoria,
+    calcularCostoEnvio} from "./totalizador";
 
     describe("Totalizador de Ventas - Entradas y Precio Neto", () => {
     it("deberia obtener la cantidad ingresada", () => {
@@ -144,4 +145,11 @@ import {
     expect(obtenerDescuentoCategoria("Electronicos")).toEqual(0.01);
     });
     });
+
+    describe("Costo de Envio por Peso Volumetrico", () => {
+    it("no deberia cobrar costo de envio si el peso volumetrico es menor o igual a 10", () => {
+    expect(calcularCostoEnvio(5, 2)).toEqual(0);
+    expect(calcularCostoEnvio(10, 1)).toEqual(0);
+  });
+});
 });

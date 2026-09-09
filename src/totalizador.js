@@ -105,3 +105,9 @@ export function obtenerImpuestoCategoria(categoria = "Varios") {
   };
   return impuestos[categoria] || 0;
 }
+export function calcularCostoEnvio(pesoVolumetrico, cantidad) {
+  if (pesoVolumetrico <= 10) {
+    return 0;
+  }
+  return 0;
+}

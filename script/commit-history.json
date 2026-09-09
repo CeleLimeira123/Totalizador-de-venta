@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8021cd4e544664438a3c56015fd6a917263d31bc",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-09T13:07:09.000Z",
       "message": "feat: aplicar impuesto adicional del 2% para la categoria Vestimenta",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/8021cd4e544664438a3c56015fd6a917263d31bc"
     },
     "stats": {
       "total": 4,
@@ -623,6 +623,25 @@
     },
     "coverage": 91.94,
     "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-09T13:09:14.000Z",
+      "message": "feat: no cobrar costo de envio si el peso volumetrico es hasta 10",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 90.77,
+    "test_count": 31,
     "failed_tests": 0,
     "conclusion": "success"
   }
