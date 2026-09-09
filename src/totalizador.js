@@ -135,6 +135,7 @@ export function aplicarDescuentoEnvioCliente(costoEnvio, tipoCliente = "Normal")
   const descuentosEnvio = {
     "Recurrente": 0.005,
     "Antiguo Recurrente": 0.015,
+    "Especial": 0.03,
   };
   const descuento = descuentosEnvio[tipoCliente] || 0;
   return costoEnvio * (1 - descuento);
