@@ -150,6 +150,9 @@ import {
     it("no deberia cobrar costo de envio si el peso volumetrico es menor o igual a 10", () => {
     expect(calcularCostoEnvio(5, 2)).toEqual(0);
     expect(calcularCostoEnvio(10, 1)).toEqual(0);
-  });
+    });
+    it("deberia calcular el costo de envio de 3.5 por unidad para peso volumetrico de 11 a 20", () => {
+    expect(calcularCostoEnvio(15, 2)).toEqual(7); // 15 * 2
+    });
 });
 });
