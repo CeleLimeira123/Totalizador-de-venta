@@ -190,3 +190,10 @@ export function obtenerDetalleCompra(precioItem, cantidad, estado, categoria, pe
     precioTotal: Number(totalFinal.toFixed(2))
   };
 }
+export function validarDatosCompra(precioItem, cantidad) {
+  if (precioItem === null || precioItem === undefined || precioItem === "" ||
+      cantidad === null || cantidad === undefined || cantidad === "") {
+    return "Faltan datos obligatorios para calcular la compra";
+  }
+  return "";
+}

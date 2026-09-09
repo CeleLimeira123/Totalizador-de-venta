@@ -1122,9 +1122,31 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0415fa4debdae484b1a162c8c4661f1c5a9ae963",
     "commitName": "feat: mostrar el detalle completo de los valores usados para calcular la compra",
     "commitTimestamp": 1788967003788,
     "testId": 47
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 2,
+    "numTotalTests": 48,
+    "timestamp": 1788967068990,
+    "success": false,
+    "testId": 48
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1788967085858,
+    "success": true,
+    "testId": 48
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: avisar si falta ingresar algun dato necesario para calcular la compra",
+    "commitTimestamp": 1788967104160,
+    "testId": 48
   }
 ]

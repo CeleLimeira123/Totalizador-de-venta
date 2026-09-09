@@ -15,7 +15,8 @@ import {
     aplicarDescuentoEnvioCliente,
     aplicarDescuentoEspecialCategoria,
     calcularPrecioTotal,
-    obtenerDetalleCompra} from "./totalizador";
+    obtenerDetalleCompra,
+    validarDatosCompra} from "./totalizador";
 
     describe("Totalizador de Ventas - Entradas y Precio Neto", () => {
     it("deberia obtener la cantidad ingresada", () => {
@@ -222,6 +223,17 @@ import {
         expect(detalle).toHaveProperty("totalDescuentos");
         expect(detalle).toHaveProperty("costoEnvioFinal");
         expect(detalle).toHaveProperty("precioTotal");
+    });
+    });
+
+    describe("Validacion de datos necesarios", () => {
+    it("deberia retornar un mensaje o advertencia si falta ingresar precio o cantidad", () => {
+        expect(validarDatosCompra(null, 2)).toEqual("Faltan datos obligatorios para calcular la compra");
+        expect(validarDatosCompra(100, null)).toEqual("Faltan datos obligatorios para calcular la compra");
+    });
+
+    it("deberia retornar valido si todos los datos requeridos estan presentes", () => {
+        expect(validarDatosCompra(100, 2)).toEqual("");
     });
     });
 });
