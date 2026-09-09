@@ -86,13 +86,16 @@ export function obtenerEstadoPorDefecto(estado) {
 export function obtenerCategoriaPorDefecto(categoria) {
   return categoria && categoria.trim() !== "" ? categoria : "Varios";
 }
+
 export function obtenerDescuentoCategoria(categoria = "Varios") {
   const descuentos = {
     "Alimentos": 0.02,
     "Material de escritorio": 0.015,
+    "Electronicos": 0.01,
   };
   return descuentos[categoria] || 0;
 }
+
 export function obtenerImpuestoCategoria(categoria = "Varios") {
   const impuestos = {
     "Bebidas alcoholicas": 0.07,

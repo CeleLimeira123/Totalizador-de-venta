@@ -748,9 +748,31 @@
     "testId": 30
   },
   {
-    "commitId": "HEAD",
+    "commitId": "66806f96cb8240881c023922e09e390708b6f3ce",
     "commitName": "feat: aplicar impuesto adicional del 4% para la categoria Electronicos",
     "commitTimestamp": 1788958908831,
     "testId": 30
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 1,
+    "numTotalTests": 29,
+    "timestamp": 1788958967121,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 0,
+    "numTotalTests": 29,
+    "timestamp": 1788959001360,
+    "success": true,
+    "testId": 31
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento adicional del 1% para la categoria Electronicos",
+    "commitTimestamp": 1788959030229,
+    "testId": 31
   }
 ]

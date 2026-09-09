@@ -570,12 +570,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "66806f96cb8240881c023922e09e390708b6f3ce",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-09T13:01:45.000Z",
       "message": "feat: aplicar impuesto adicional del 4% para la categoria Electronicos",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/66806f96cb8240881c023922e09e390708b6f3ce"
     },
     "stats": {
       "total": 13,
@@ -585,6 +585,25 @@
     },
     "coverage": 91.94,
     "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-09T13:03:47.000Z",
+      "message": "feat: aplicar descuento adicional del 1% para la categoria Electronicos",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 7,
+      "deletions": 2,
+      "date": "2026-09-09"
+    },
+    "coverage": 91.94,
+    "test_count": 29,
     "failed_tests": 0,
     "conclusion": "success"
   }
