@@ -130,6 +130,9 @@ import {
     it("deberia aplicar 4% de impuesto adicional para la categoria Electronicos", () => {
     expect(obtenerImpuestoCategoria("Electronicos")).toEqual(0.04);
     });
+    it("deberia aplicar 2% de impuesto adicional para la categoria Vestimenta", () => {
+    expect(obtenerImpuestoCategoria("Vestimenta")).toEqual(0.02);
+    });
     });
 
 

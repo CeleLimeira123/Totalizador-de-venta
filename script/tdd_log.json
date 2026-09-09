@@ -770,9 +770,31 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2e3cd2036437aa91c64119107237a47f7dbd88b6",
     "commitName": "feat: aplicar descuento adicional del 1% para la categoria Electronicos",
     "commitTimestamp": 1788959030229,
     "testId": 31
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 1,
+    "numTotalTests": 30,
+    "timestamp": 1788959160520,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1788959214260,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto adicional del 2% para la categoria Vestimenta",
+    "commitTimestamp": 1788959233154,
+    "testId": 32
   }
 ]

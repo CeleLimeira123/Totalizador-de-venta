@@ -101,6 +101,7 @@ export function obtenerImpuestoCategoria(categoria = "Varios") {
     "Bebidas alcoholicas": 0.07,
     "Muebles": 0.03,
     "Electronicos": 0.04,
+    "Vestimenta": 0.02,
   };
   return impuestos[categoria] || 0;
 }
