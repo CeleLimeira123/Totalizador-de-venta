@@ -969,12 +969,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "212e52dd98be15622e89500f1a59e6bec515632a",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-09T19:16:20.000Z",
       "message": "refactor(calculos): reutilizar funciones existentes en obtenerDetalleCompra",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/212e52dd98be15622e89500f1a59e6bec515632a"
     },
     "stats": {
       "total": 46,
@@ -983,6 +983,25 @@
       "date": "2026-09-09"
     },
     "coverage": 96.15,
+    "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-09T20:01:29.000Z",
+      "message": "fix(validaciones): rechazar cantidades menores o iguales a cero en validarDatosCompra",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-09-09"
+    },
+    "coverage": 94.44,
     "test_count": 48,
     "failed_tests": 0,
     "conclusion": "success"

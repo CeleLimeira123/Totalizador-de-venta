@@ -1170,9 +1170,23 @@
     "testId": 50
   },
   {
-    "commitId": "HEAD",
+    "commitId": "212e52dd98be15622e89500f1a59e6bec515632a",
     "commitName": "refactor(calculos): reutilizar funciones existentes en obtenerDetalleCompra",
     "commitTimestamp": 1788981383760,
     "testId": 51
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1788981768400,
+    "success": true,
+    "testId": 52
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix(validaciones): rechazar cantidades menores o iguales a cero en validarDatosCompra",
+    "commitTimestamp": 1788984093641,
+    "testId": 52
   }
 ]

@@ -167,6 +167,12 @@ export function validarDatosCompra(precioItem, cantidad) {
       cantidad === null || cantidad === undefined || cantidad === "") {
     return "Faltan datos obligatorios para calcular la compra";
   }
+  if (Number(cantidad) <= 0) {
+    return "La cantidad debe ser mayor a 0";
+  }
+  if (Number(precioItem) < 0) {
+    return "El precio no puede ser negativo";
+  }
   return "";
 }
 
@@ -174,7 +180,6 @@ export function validarDatosCompra(precioItem, cantidad) {
 export function obtenerDetalleCompra(precioItem, cantidad, estado, categoria, pesoVolumetrico, tipoCliente) {
   const subtotal = calcularPrecioNeto(cantidad, precioItem);
   
-  // Usamos tu función calcularDescuento ya existente
   const descuentoMonto = calcularDescuento(subtotal);
   const porcentajeDescCat = obtenerDescuentoCategoria(categoria);
   const descuentoCatMonto = subtotal * porcentajeDescCat;
@@ -182,7 +187,6 @@ export function obtenerDetalleCompra(precioItem, cantidad, estado, categoria, pe
 
   const subtotalConDescuento = subtotal - totalDescuentos;
 
-  // Usamos tu función calcularImpuesto ya existente (pasándole el subtotal con descuento)
   const impuestoEstatalMonto = calcularImpuesto(subtotalConDescuento, estado);
   const impuestoCatMonto = subtotalConDescuento * obtenerImpuestoCategoria(categoria);
   
