@@ -912,17 +912,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "43a201dcae65a98bf787e524d7105c5fbc1291f3",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-09T15:18:20.000Z",
       "message": "feat: avisar si falta ingresar algun dato necesario para calcular la compra",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/43a201dcae65a98bf787e524d7105c5fbc1291f3"
     },
     "stats": {
       "total": 21,
       "additions": 20,
       "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 95.37,
+    "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-09T15:24:00.000Z",
+      "message": "refactor: actualizar presenter para conectar la interfaz con las nuevas funciones de calculo y validacion",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 38,
+      "additions": 21,
+      "deletions": 17,
       "date": "2026-09-09"
     },
     "coverage": 95.37,

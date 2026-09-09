@@ -1144,9 +1144,15 @@
     "testId": 48
   },
   {
-    "commitId": "HEAD",
+    "commitId": "43a201dcae65a98bf787e524d7105c5fbc1291f3",
     "commitName": "feat: avisar si falta ingresar algun dato necesario para calcular la compra",
     "commitTimestamp": 1788967104160,
     "testId": 48
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: actualizar presenter para conectar la interfaz con las nuevas funciones de calculo y validacion",
+    "commitTimestamp": 1788967443635,
+    "testId": 49
   }
 ]
