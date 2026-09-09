@@ -1150,9 +1150,23 @@
     "testId": 48
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2de65467edb0a5cccbb04cb0f25f328696b37bbd",
     "commitName": "refactor: actualizar presenter para conectar la interfaz con las nuevas funciones de calculo y validacion",
     "commitTimestamp": 1788967443635,
     "testId": 49
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 0,
+    "numTotalTests": 48,
+    "timestamp": 1788978805939,
+    "success": true,
+    "testId": 50
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refactor: optimizar calculo de impuestos estatales usando diccionario",
+    "commitTimestamp": 1788978825366,
+    "testId": 50
   }
 ]

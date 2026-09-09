@@ -931,12 +931,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2de65467edb0a5cccbb04cb0f25f328696b37bbd",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-09T15:24:00.000Z",
       "message": "refactor: actualizar presenter para conectar la interfaz con las nuevas funciones de calculo y validacion",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/2de65467edb0a5cccbb04cb0f25f328696b37bbd"
     },
     "stats": {
       "total": 38,
@@ -945,6 +945,25 @@
       "date": "2026-09-09"
     },
     "coverage": 95.37,
+    "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-09T18:33:42.000Z",
+      "message": "refactor: optimizar calculo de impuestos estatales usando diccionario",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 10,
+      "deletions": 16,
+      "date": "2026-09-09"
+    },
+    "coverage": 96,
     "test_count": 48,
     "failed_tests": 0,
     "conclusion": "success"
