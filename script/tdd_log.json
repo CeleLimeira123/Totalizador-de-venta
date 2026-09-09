@@ -704,9 +704,31 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f48f21719c6c8dbaa85647975bd9b9dc946c72ef",
     "commitName": "refactor: usar diccionario para descuentos por categoria y soportar material de escritorio",
     "commitTimestamp": 1788957548307,
     "testId": 28
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1788957634875,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1788957691449,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto adicional del 3% para la categoria Muebles",
+    "commitTimestamp": 1788957716048,
+    "testId": 29
   }
 ]

@@ -129,5 +129,8 @@ import {
     it("deberia aplicar 1.5% de descuento adicional para la categoria Material de escritorio", () => {
         expect(obtenerDescuentoCategoria("Material de escritorio")).toEqual(0.015);
     });
+    it("deberia aplicar 3% de impuesto adicional para la categoria Muebles", () => {
+    expect(obtenerImpuestoCategoria("Muebles")).toEqual(0.03);
+    });
     });
 });
