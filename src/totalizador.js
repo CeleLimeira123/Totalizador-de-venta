@@ -150,3 +150,20 @@ export function aplicarDescuentoEspecialCategoria(tipoCliente, categoria, montoT
   }
   return 0;
 }
+
+export function calcularPrecioTotal(precioItem, cantidad, estado, categoria, pesoVolumetrico, tipoCliente) {
+  const subtotal = precioItem * cantidad;
+  const descuentoCat = obtenerDescuentoCategoria(categoria);
+  const impuestoCat = obtenerImpuestoCategoria(categoria);
+  
+  const montoConDescuento = subtotal * (1 - descuentoCat);
+  const montoConImpuesto = montoConDescuento * (1 + impuestoCat);
+  
+  const envioBase = calcularCostoEnvio(pesoVolumetrico, cantidad);
+  const envioFinal = aplicarDescuentoEnvioCliente(envioBase, tipoCliente);
+  
+  const descuentoEspecial = aplicarDescuentoEspecialCategoria(tipoCliente, categoria, montoConImpuesto);
+
+  const totalFinal = montoConImpuesto + envioFinal - descuentoEspecial;
+  return Number(totalFinal.toFixed(2));
+}

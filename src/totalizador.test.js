@@ -13,7 +13,8 @@ import {
     calcularCostoEnvio,
     obtenerClientePorDefecto,
     aplicarDescuentoEnvioCliente,
-    aplicarDescuentoEspecialCategoria} from "./totalizador";
+    aplicarDescuentoEspecialCategoria,
+    calcularPrecioTotal} from "./totalizador";
 
     describe("Totalizador de Ventas - Entradas y Precio Neto", () => {
     it("deberia obtener la cantidad ingresada", () => {
@@ -204,4 +205,11 @@ import {
     expect(aplicarDescuentoEspecialCategoria("Especial", "Electronicos", 7000)).toEqual(150); 
     });
     });
+
+    describe("Calculo de precio total final", () => {
+    it("deberia calcular el total final considerando precio base, impuestos, descuentos y envio", () => {
+    const resultado = calcularPrecioTotal(100, 2, "CA", "Varios", 5, "Normal");
+        expect(resultado).toBeGreaterThan(0);
+    });
+});
 });

@@ -1078,9 +1078,31 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1e425593391d4e174cdd185b5578a474a0df8752",
     "commitName": "feat: aplicar descuento fijo especial para clientes Especial que compran Electronicos por monto considerable",
     "commitTimestamp": 1788963573045,
     "testId": 45
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 1,
+    "numTotalTests": 45,
+    "timestamp": 1788966620104,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1788966652821,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular el precio total final integrando impuestos, descuentos y envio",
+    "commitTimestamp": 1788966713294,
+    "testId": 46
   }
 ]
