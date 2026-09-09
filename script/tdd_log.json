@@ -1056,9 +1056,31 @@
     "testId": 44
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3a3e9053063c65f30345cdceec1d10a2ec3a3134",
     "commitName": "feat: aplicar descuento fijo especial para clientes Recurrente que compran Alimentos por monto considerable",
     "commitTimestamp": 1788963100260,
     "testId": 44
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 1,
+    "numTotalTests": 44,
+    "timestamp": 1788963131742,
+    "success": false,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 0,
+    "numTotalTests": 44,
+    "timestamp": 1788963157818,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento fijo especial para clientes Especial que compran Electronicos por monto considerable",
+    "commitTimestamp": 1788963573045,
+    "testId": 45
   }
 ]

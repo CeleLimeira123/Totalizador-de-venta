@@ -189,16 +189,19 @@ import {
         expect(aplicarDescuentoEnvioCliente(100, "Recurrente")).toEqual(99.5);
     });
     it("deberia aplicar descuento en el envio para clientes Antiguo Recurrente", () => {
-    expect(aplicarDescuentoEnvioCliente(100, "Antiguo Recurrente")).toEqual(98.5); // 1.5% de descuento (ejemplo: 98.5)
+    expect(aplicarDescuentoEnvioCliente(100, "Antiguo Recurrente")).toEqual(98.5); 
     });
     it("deberia aplicar mayor descuento en el envio para clientes Especial", () => {
-    expect(aplicarDescuentoEnvioCliente(100, "Especial")).toEqual(97); // 3% de descuento (ejemplo: 97)
+    expect(aplicarDescuentoEnvioCliente(100, "Especial")).toEqual(97); 
     });
     });
 
     describe("Descuento especial por categoria y tipo de cliente", () => {
     it("deberia aplicar descuento fijo si cliente Recurrente compra Alimentos por monto considerable", () => {
-        expect(aplicarDescuentoEspecialCategoria("Recurrente", "Alimentos", 4000)).toEqual(100); // Ejemplo de descuento fijo
+        expect(aplicarDescuentoEspecialCategoria("Recurrente", "Alimentos", 4000)).toEqual(100); 
+    });
+    it("deberia aplicar descuento fijo si cliente Especial compra Electronicos por monto considerable", () => {
+    expect(aplicarDescuentoEspecialCategoria("Especial", "Electronicos", 7000)).toEqual(150); 
     });
     });
 });

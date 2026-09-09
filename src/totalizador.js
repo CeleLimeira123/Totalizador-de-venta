@@ -143,7 +143,10 @@ export function aplicarDescuentoEnvioCliente(costoEnvio, tipoCliente = "Normal")
 
 export function aplicarDescuentoEspecialCategoria(tipoCliente, categoria, montoTotal) {
   if (tipoCliente === "Recurrente" && categoria === "Alimentos" && montoTotal >= 3000) {
-    return 100; 
+    return 100;
+  }
+  if (tipoCliente === "Especial" && categoria === "Electronicos" && montoTotal >= 5000) {
+    return 150;
   }
   return 0;
 }

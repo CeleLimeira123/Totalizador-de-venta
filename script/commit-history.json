@@ -836,12 +836,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3a3e9053063c65f30345cdceec1d10a2ec3a3134",
     "author": "Celeste Limeira",
     "commit": {
       "date": "2026-09-09T14:11:36.000Z",
       "message": "feat: aplicar descuento fijo especial para clientes Recurrente que compran Alimentos por monto considerable",
-      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/3a3e9053063c65f30345cdceec1d10a2ec3a3134"
     },
     "stats": {
       "total": 17,
@@ -851,6 +851,25 @@
     },
     "coverage": 92.68,
     "test_count": 43,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Celeste Limeira",
+    "commit": {
+      "date": "2026-09-09T14:19:30.000Z",
+      "message": "feat: aplicar descuento fijo especial para clientes Especial que compran Electronicos por monto considerable",
+      "url": "https://github.com/CeleLimeira123/Totalizador-de-venta/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 10,
+      "deletions": 4,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.86,
+    "test_count": 44,
     "failed_tests": 0,
     "conclusion": "success"
   }
