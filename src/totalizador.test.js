@@ -163,5 +163,8 @@ import {
     it("deberia calcular el costo de envio de 6.5 por unidad para peso volumetrico de 81 a 100", () => {
     expect(calcularCostoEnvio(90, 2)).toEqual(13); 
     });
+    it("deberia calcular el costo de envio de 8 por unidad para peso volumetrico de 101 a 200", () => {
+    expect(calcularCostoEnvio(150, 1)).toEqual(8); 
+    });
 });
 });

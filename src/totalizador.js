@@ -121,5 +121,8 @@ export function calcularCostoEnvio(pesoVolumetrico, cantidad) {
   if (pesoVolumetrico >= 81 && pesoVolumetrico <= 100) {
     return 6.5 * cantidad;
   }
+  if (pesoVolumetrico >= 101 && pesoVolumetrico <= 200) {
+    return 8 * cantidad;
+  }
   return 0;
 }
